@@ -1,0 +1,307 @@
+@media (max-width:777px) {
+  
+  .left-side .img{
+   width: 100px;
+    margin-left: 20px;
+  }
+  .right-side {
+    margin-right: 4px;
+   
+
+  }
+  .right-side .contact{
+
+    font-size: 18px;
+  }
+  .right-side .about{
+
+    font-size: 18px;
+  }
+  .right-side .home{
+
+    font-size: 18px;
+  }
+  .right-side .menu{
+
+    font-size: 18px;
+  }
+
+   .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5px;
+
+
+  } 
+}
+
+@media (max-width:570px){
+
+  .left-side{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .right-side{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .right-side .home{
+    margin-left: 60px;
+  }
+}
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Serif Pro',sans-serif;
+}
+
+.img{
+  width: 200px;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  
+  padding: 5px;
+  width: 100%;
+  background-color: #83e85a;
+  height: 200px;
+}
+.right-side{
+  display: flex;
+  align-items: center;
+
+}
+
+
+.right-side .nav-link{
+
+  padding: 8px;
+  
+}
+
+
+
+.contact{
+    margin: 15px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+  margin-right: 50px;
+}
+.contact:hover{
+ 
+  color: white;
+  background-color: rgb(41, 40, 40);
+  transition: 0.8s;
+}
+
+.menu{
+  margin: 15px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+
+}
+.menu:hover{
+
+  color: white;
+  background-color: rgb(41, 40, 40);
+  transition: 0.8s;
+}
+
+.about{
+  margin: 15px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+
+}
+.about:hover{
+
+  color: white;
+  background-color: rgb(41, 40, 40);
+  transition: 0.8s;
+}
+
+.home{
+  margin: 15px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+
+}
+.home:hover{
+
+  color: white;
+  background-color: rgb(41, 40, 40);
+  transition: 0.3s;
+}
+
+.banner{
+
+  width: 100%;
+  height: 100vh;
+}
+
+.homecontent{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.headerContainer h1{
+
+  color: white;
+  font-size: 8rem;
+  margin-left: 20px;
+
+
+}
+
+.headerContainer p{
+
+  color: white;
+  font-size: 2rem;
+  margin-left:50px;
+
+
+}
+
+.headerContainer .button{
+
+  
+ margin-left: 50px;
+ font-size: 30px;
+  
+
+}
+
+.container{
+
+  display: flex;
+  
+  justify-content: center;
+}
+.menuPage{
+  overflow-y: auto;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  background-color: #2cb978;
+  height: 150vh;
+}
+.menuTitle{
+
+  font-size: 4rem;
+  font-weight: 600;
+  color: white;
+  font-family: sans-serif;
+}
+
+.menuList{
+  
+  display: flex;
+  justify-content: center;
+  margin: 20px 50px;
+  flex-wrap: wrap;
+}
+
+.menuList img{
+
+height:250px ;
+}
+
+.menu-Item{
+
+  background-color: #83e85a;
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+
+}
+
+
+.menu-Item:hover{
+
+  scale: (1.02);
+  opacity: 0.8;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 400px;
+  height: 360px;
+  
+}
+
+.aboutPage{
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #2cb978;
+}
+
+.AboutTop{
+  width: 100%;
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutBottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.aboutBottom p{
+
+  margin-top: 20px;
+  width: 500px;
+}
+
+.aboutBottom h1{
+
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.left{
+  
+  
+  height: 77vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.right-side{
+  display: flex;
+  align-items: center;
+}
